@@ -1,0 +1,363 @@
+@media screen and (min-width: 480px) {
+  
+  /*************
+  two column layout
+  **************/
+  
+  #primary {
+    width: 50%;
+    float: left;
+    border-bottom: 0;
+  }
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+/*************
+  3 columns 2.5 margin either side. 3 * (2.5*2) = 15
+  100% - 15= 85%
+  85% / 3 = 28.33333333333333%
+**************/
+
+  /*************
+  portfolio styles
+  **************/
+  #slideimg {
+    width: 45%;
+}
+
+  
+  
+
+
+  /***********
+  nav font
+  **********/
+
+  .headtab li a {
+  font-size: 1.45em;
+  line-height: 1.3;
+
+}
+
+ /*************
+  about
+  **************/
+
+.copy {
+  
+  background-color: #2E3D47;
+  display: inline-block;
+  width: 45%;
+  position: relative;
+  float: top right;
+  margin-top: 28px;
+  padding: 40px 40px 21px 40px;
+  line-height: 1.5;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  border: 4px solid #222;
+  border-radius: 15px;
+
+
+}
+
+
+.profile-photo {
+  float: left;
+  margin: 0 5% 80px 0;
+  }
+
+#tag h2 {
+  bottom-border: 2px solid white;
+}
+
+
+
+}
+
+@media screen and (min-width: 770px) {
+  
+  /*************
+  header
+  **************/
+  
+  nav {
+    background: none;
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+    border: 0;
+
+  }
+
+  .headtab li a {
+  font-size: 1.6em;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 6px double #333;
+    border-top: 6px double #333;
+    margin-bottom: 50px;
+  }
+  
+
+#backgroundimg {
+  top: 200px;
+  min-height: 900px;
+  width: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url('../img/arbor1bw2.jpg');
+  
+}
+
+#gradient {
+  top: 200px;
+  min-height: 1000px;
+  width: 100%;
+  background: -webkit-linear-gradient(#BDC3C7, #444647); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#BDC3C7, #444647); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#BDC3C7, #444647)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#BDC3C7, #BDC3C7)); /* Standard syntax */
+
+
+}
+
+.contactcopy {
+  width: 45%;
+}
+
+#gallery li {
+    width: 20.5%;
+    margin: 2%;
+  }
+
+   #overlay img {
+    width: 55%;
+
+  }
+/********************
+tagline
+**************/
+
+  #tag h1 {
+  font-size: 3.5em;
+  }
+  
+  #tag h2 {
+  font-size: 3em;
+ 
+  }
+ 
+}
+
+
+@media screen and (min-width: 1264px) {
+ 
+  #tag h1 {
+  font-size: 4.5em;
+  font-weight: 400;
+ 
+  }
+  #tag h2 {
+  font-size: 3.5em;
+  font-weight: 400;
+  
+}
+  #tag {
+    background: rgba(100, 100, 100, 0.1);
+
+
+}
+
+/***************
+contact page
+********/
+
+.cta h1,
+.cta h2 {
+  text-align: center;
+  color: #333;
+}
+
+.cta h2 {
+  font-size: 3em;
+}
+
+.cta h1 {
+  font-size: 3.5em;
+
+}
+
+#formpage *, 
+#formpage *:before, 
+#formpage *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#formpage body {
+  font-family: 'Nunito', sans-serif;
+  color: #444;
+
+}
+
+#formpage form {
+  width: 45%;
+  margin: 2.5%;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border: 4px solid #222;
+  border-radius: 15px;
+  
+  display: inline-block;
+  float: left;
+  left: 35%;
+
+}
+
+#formpage h1 {
+  margin: 0 0 0 0;
+  color: #444;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#formpage input[type="text"],
+#formpage input[type="password"],
+#formpage input[type="date"],
+#formpage input[type="datetime"],
+#formpage input[type="email"],
+#formpage input[type="number"],
+#formpage input[type="search"],
+#formpage input[type="tel"],
+#formpage input[type="time"],
+#formpage input[type="url"],
+#formpage textarea,
+#formpage select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1) inset;
+  margin-bottom: 20px;
+}
+
+#formpage input[type="radio"],
+#formpage input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+#formpage select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+#formpage button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #2E3D47;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+
+#formpage fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+#formpage legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+#formpage label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+#formpage label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+#formpage .number {
+  background-color: #5fcf80;
+  color: #333;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+.contactcopy {
+  width: 45%;
+  margin: 2.5%;
+  float: left;
+  display: inline-block;
+  color: #333;
+  background-color: #eee;
+  padding:40px 40px 21px 40px;
+  border:4px solid #222;
+  border-radius: 15px;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.contactcopy p {
+  font-size: 1.4em;
+
+}
+.contactcopy h3 {
+  font-size: 1.6em;
+  line-height: 1.4;
+
+}
+
+  
+
+}
