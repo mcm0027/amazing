@@ -150,11 +150,13 @@
 
 #gallery li {
     width: 20.5%;
+    height: auto;
     margin: 2%;
   }
 
    #overlay img {
     width: 55%;
+
 
   }
 /********************

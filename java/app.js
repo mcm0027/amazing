@@ -35,13 +35,3 @@ $("#wrapper").hide().show(2000);
 
 $("#frontFoot").hide().show(2000);
 
-
-$(".copy p").hide();
-
-
-$(".copy").append("<button>Reveal Copy!</button>");
-
-$(".copy button").click(function() {
-	$(".copy p").show(2000);
-	$(this).remove();
-});

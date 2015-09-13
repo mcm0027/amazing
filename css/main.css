@@ -239,10 +239,10 @@ Copy Button
 }
 
 #gallery li {
-width: 44%;
-display: inline-block;
-margin: 2.5%;
-box-sizing: border-box;
+  width: 44%;
+  display: inline-block;
+  margin: 2.5%;
+  box-sizing: border-box;
 }
 
 #gallery img {
@@ -253,6 +253,7 @@ box-sizing: border-box;
   border-radius: 30px;
   border: 4px solid #222;
   display: block;
+  
   
 }
 
@@ -268,11 +269,17 @@ box-sizing: border-box;
   }
 
 
-  #overlay img {
-    margin-top: 2%;
-    border-radius: 30px;
-    border: 4px solid #222;
-    width: 95%;
+#overlay img {
+  margin-top: 4%;
+  border-radius: 30px;
+  border: 4px solid #222;
+  width: 95%;
+  height: 80%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;  
+}
+
 
 }
 
