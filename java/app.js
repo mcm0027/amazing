@@ -31,7 +31,15 @@ $("#gallery a").click(function(event) {
 /// Home page stylings
 
 
-$("#wrapper").hide().show(2000);
+//$("#wrapper").hide().show(2000);
 
-$("#frontFoot").hide().show(2000);
+//$("#frontFoot").hide().show(2000);
 
+$(".animsition").animsition({
+  inClass: "fade-in",
+  outClass: "fade-out",
+  inDuration: 600,
+  outDuration: 600
+
+
+});

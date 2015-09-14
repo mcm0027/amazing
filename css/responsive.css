@@ -47,8 +47,9 @@
 
 .copy {
   
-  background-color: #2E3D47;
+  background-color: #4C717F;
   display: inline-block;
+  color: #eee;
   width: 45%;
   position: relative;
   float: top right;
@@ -134,7 +135,7 @@
 
 #gradient {
   top: 200px;
-  min-height: 1000px;
+  min-height: auto;
   width: 100%;
   background: -webkit-linear-gradient(#BDC3C7, #444647); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#BDC3C7, #444647); /* For Opera 11.1 to 12.0 */

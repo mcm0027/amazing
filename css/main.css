@@ -153,16 +153,20 @@ footer {
   clear: both;
   color: #ccc;
   display: inline-block;
-  /*background-color: #444647;
-  background-size: 150%;*/
-  border-top: 6px double #333;;
- 
+  background-color: #333;
+  border-top: 4px double #666;
+
 }
+
+footer p {
+  margin: 3px;
+}
+
 
 .social-icon {
   width: 40px;
   height: 40px;
-  margin: 0 5px;
+  margin: 10px 0 0 0;
 }
 
 .clearfix {
@@ -421,7 +425,7 @@ nav a.selected, nav a:hover {
   font-weight: 500;
   line-height: 1.5em;
   text-align: center;
-  color: #4EB3D0;
+  color: #98E2FF;
   letter-spacing: .1em;
   text-shadow: 4px 4px 2px rgba(20, 20, 20, 1);
 
