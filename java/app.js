@@ -38,8 +38,15 @@ $("#gallery a").click(function(event) {
 $(".animsition").animsition({
   inClass: "fade-in",
   outClass: "fade-out",
-  inDuration: 600,
-  outDuration: 600
+  inDuration: 1500,
+  outDuration: 1500
 
 
 });
+
+$("header").sticky();
+
+$("#stickyCta").sticky({
+  topSpacing: 75
+});
+

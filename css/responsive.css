@@ -23,14 +23,10 @@
   /*************
   portfolio styles
   **************/
-  #slideimg {
-    width: 45%;
-}
-
-  
   
 
 
+  
   /***********
   nav font
   **********/
@@ -50,7 +46,6 @@
   background-color: #4C717F;
   display: inline-block;
   color: #eee;
-  width: 45%;
   position: relative;
   float: top right;
   margin-top: 28px;
@@ -59,7 +54,7 @@
   font-size: 1.2em;
   box-sizing: border-box;
   border: 4px solid #222;
-  border-radius: 15px;
+  border-radius: 30px;
 
 
 }
@@ -94,6 +89,10 @@
 
   }
 
+  #slideimg {
+    width: 45%;
+  }
+
   .headtab li a {
   font-size: 1.6em;
   }
@@ -106,7 +105,7 @@
   }
   
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   
   h2 {
@@ -133,9 +132,13 @@
   
 }
 
+.copy {
+  width: 45%;
+}
+
 #gradient {
   top: 200px;
-  min-height: auto;
+  min-height: 100%;
   width: 100%;
   background: -webkit-linear-gradient(#BDC3C7, #444647); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#BDC3C7, #444647); /* For Opera 11.1 to 12.0 */
@@ -147,12 +150,24 @@
 
 .contactcopy {
   width: 45%;
+  display: inline-block;
 }
 
 #gallery li {
     width: 20.5%;
     height: auto;
     margin: 2%;
+  }
+
+  .gallery_copy {
+    width: 45%;
+    float: left;
+
+  }
+
+  .gallery_copy p {
+    margin: .5em;
+    
   }
 
    #overlay img {
@@ -172,6 +187,10 @@ tagline
   font-size: 3em;
  
   }
+
+  #formpage form {
+  width: 45%;
+}
  
 }
 
