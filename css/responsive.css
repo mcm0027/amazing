@@ -198,21 +198,16 @@ tagline
 @media screen and (min-width: 1264px) {
  
   #tag h1 {
-  font-size: 4.5em;
+  font-size: 3.5em;
   font-weight: 400;
  
   }
   #tag h2 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 400;
   
 }
-  #tag {
-    background: rgba(100, 100, 100, 0.1);
-
-
-}
-
+ 
 /***************
 contact page
 ********/
@@ -220,7 +215,7 @@ contact page
 .cta h1,
 .cta h2 {
   text-align: center;
-  color: #333;
+  color: #eee;
 }
 
 .cta h2 {

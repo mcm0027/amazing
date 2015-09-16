@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/reset.css">
   <link href='https://fonts.googleapis.com/css?family=Playball|' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="java/animsition/css/animsition.min.css">
+  <link rel="stylesheet" href="java/slick/slick.css">
+   <link rel="stylesheet" href="java/slick/slick-theme.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -36,14 +38,52 @@
 		        </nav>
 		      </header>
 		    
-		   <div id="backgroundimg">
-		   <div>
-		   
-		<main>
+		<div class="backgroundimg">
+		  <div class="row">
+		  	<div id="tag">
+			      		<h1>Decks and Patios</h1> <h2> We Create Beautiful Outdoor Living Spaces.</h2>
+			      	</div>
+		  	<div class="grid-full">
+		  	 <div class="slides">
+		  	 	<div class="slide suit">
+		  	 	 <div class="grid-half">
+			   		<h2>Materials you can trust.</h2>
+		   			<p>Check out our quality materials and workmanship.</p>
+		   			<a href="material.html" class="button">Materials</a>
+		    	</div>
+		    	<div class="grid-half">
+		    		<a href="material.html">
+		    		<img src="./img/materials.jpg" alt="Patio and deck materials."></a> 
+		    	</div>
+		      </div>
+		      <div class="slide mocha">
+		  	 	 <div class="grid-half">
+			   		<h2>We guarantee our work.</h2>
+		   			<p>Hear why we guarantee an amazing experience.</p>
+		   			<a href="guarantee.html" class="button">Guarantee</a>
+		    	</div>
+		    	<div class="grid-half">
+		    		<a href="./img/guarantee.html">
+		    		<img src="./img/guarantee.jpg" alt="Information about our guarantee."></a> 
+		    	</div>
+		      </div>
+		       <div class="slide mocha">
+		  	 	 <div class="grid-half">
+			   		<h2>Visit our gallery.</h2>
+		   			<p>See some of the beautiful work we've done.</p>
+		   			<a href="guarantee.html" class="button">Gallery</a>
+		    	</div>
+		    	<div class="grid-half">
+		    		<a href="./img/gallary.html">
+		    		<img src="./img/archsideview.jpg" alt="Information about our guarantee."></a> 
+		    	</div>
+		      </div>
 
-		   
-			
-		</main>
+
+		    </div>
+		  </div>
+
+		
 
 		    <div id="wrapper">
 		    	
@@ -79,21 +119,35 @@
 		    
 		     
 		   
-	  	</div>
+	  			</div>
 	  	
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-		 <script type="text/javascript" src="java/slideshow.js"></script>
-		 <script src="java/animsition/js/jquery.animsition.min.js" type="text/javascript" charset="utf-8"></script>
-		 <script src="java/jquery.sticky.js" type="text/javascript" charset="utf-8"></script>
-		<script src="java/app.js" type="text/javascript" charset="utf-8"></script>
+		
 
-		</div> 
-
+			</div> 
+		</div>
 		<footer id="frontFoot">
 		        <a href="https://twitter.com/mcm0027"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
 		        <a href="https://www.facebook.com/matt.morris.31"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
 		        <p>&copy; 2015 Matt Morris.</p>
 		</footer>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		 <script type="text/javascript" src="java/slideshow.js"></script>
+		 <script src="java/animsition/js/jquery.animsition.min.js" type="text/javascript" charset="utf-8"></script>
+		 <script src="java/jquery.sticky.js" type="text/javascript" charset="utf-8"></script>
+		 <script src="java/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="java/app.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+		$('.slides').slick({
+			fade: true,
+			dots: true,
+			autoplay: true,
+			speed: 2000,
+			autoplaySpeed: 6000
+
+		});
+		</script>
+
 	  </body>
   
   </html>
