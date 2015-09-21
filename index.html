@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width">
   <title>Amazing Arbors</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link href='https://fonts.googleapis.com/css?family=Playball|' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Playball|' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="java/animsition/css/animsition.min.css">
   <link rel="stylesheet" href="java/slick/slick.css">
    <link rel="stylesheet" href="java/slick/slick-theme.css">
@@ -18,7 +20,8 @@
   </head>
   
   <body>
-	  	<div class="animsition">
+	
+	  	<<div class="animsition">
 	  	<div class="background">
 	    
 		      <header>
@@ -38,7 +41,8 @@
 		        </nav>
 		      </header>
 		    
-		<div class="backgroundimg">
+		<div class="backgroundimgHome">
+		 <div>
 		  <div class="row">
 		  	<div id="tag">
 			      		<h1>Decks and Patios</h1> <h2> We Create Beautiful Outdoor Living Spaces.</h2>
@@ -51,7 +55,7 @@
 		   			<p>Check out our quality materials and workmanship.</p>
 		   			<a href="material.html" class="button">Materials</a>
 		    	</div>
-		    	<div class="grid-half">
+		    	<div class="grid-half slideImg">
 		    		<a href="material.html">
 		    		<img src="./img/materials.jpg" alt="Patio and deck materials."></a> 
 		    	</div>
@@ -62,20 +66,31 @@
 		   			<p>Hear why we guarantee an amazing experience.</p>
 		   			<a href="guarantee.html" class="button">Guarantee</a>
 		    	</div>
-		    	<div class="grid-half">
-		    		<a href="./img/guarantee.html">
-		    		<img src="./img/guarantee.jpg" alt="Information about our guarantee."></a> 
+		    	<div class="grid-half slideImg">
+		    		<a href="guarantee.html">
+		    		<img src="./img/guarantee-resize.jpg" alt="Information about our guarantee."></a> 
 		    	</div>
 		      </div>
-		       <div class="slide mocha">
+		       <div class="slide linen">
 		  	 	 <div class="grid-half">
 			   		<h2>Visit our gallery.</h2>
 		   			<p>See some of the beautiful work we've done.</p>
-		   			<a href="guarantee.html" class="button">Gallery</a>
+		   			<a href="gallery.html" class="button">Gallery</a>
 		    	</div>
-		    	<div class="grid-half">
-		    		<a href="./img/gallary.html">
-		    		<img src="./img/archsideview.jpg" alt="Information about our guarantee."></a> 
+		    	<div class="grid-half slideImg">
+		    		<a href="gallery.html">
+		    		<img src="./img/archsideviewcrop-resize.jpg" alt="Information about our guarantee."></a> 
+		    	</div>
+		      </div>
+		       <div class="slide linen">
+		  	 	 <div class="grid-half">
+			   		<h2>Contact us.</h2>
+		   			<p>Contact us today for a free estimate.</p>
+		   			<a href="gallery.html" class="button">Gallery</a>
+		    	</div>
+		    	<div class="grid-half slideImg">
+		    		<a href="gallery.html">
+		    		<img src="./img/contact_phoneresize.jpg" alt="phone and email"></a> 
 		    	</div>
 		      </div>
 
@@ -84,27 +99,8 @@
 		  </div>
 
 		
-
-		    <div id="wrapper">
-		    	
-		    	
-			      <section>
-			      	<div id="tag">
-			      		<h1>Decks and Patios</h1> <h2> We Create Beautiful Outdoor Living Spaces.</h2>
-			      	</div>
-			      	<section>
-					<img id="slideimg" src="./img/arbor1.jpg" name="mypic">
-						<p>
-
-						<form name="joe">
-						
-						</form>
-
-						<a href="JavaScript:slideshowBack()" class="bslidearrow"> Back</A>
-
-						<a href="JavaScript:slideshowUp()" class="nslidearrow"> Next</A>
-					</section> 
-
+<!--
+		    
 					<section class="copy">
 						<p>At Amazing Arbors we custom design and build beautiful arbors, decks, patios covers and outdoor kitchens.  We have over 20 yrs. combined experience in the arbor business.</p>
 
@@ -116,11 +112,11 @@
 		       
 		   
 		      </section>
-		    
+		   
 		     
 		   
 	  			</div>
-	  	
+	  	 -->
 		
 
 			</div> 
@@ -130,10 +126,11 @@
 		        <a href="https://www.facebook.com/matt.morris.31"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
 		        <p>&copy; 2015 Matt Morris.</p>
 		</footer>
+	</div>
 
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-		 <script type="text/javascript" src="java/slideshow.js"></script>
-		 <script src="java/animsition/js/jquery.animsition.min.js" type="text/javascript" charset="utf-8"></script>
+		<<script src="java/animsition/js/jquery.animsition.min.js" type="text/javascript" charset="utf-8"></script>-
+		<script src="dist/jquery.fadethis.min.js"></script>
 		 <script src="java/jquery.sticky.js" type="text/javascript" charset="utf-8"></script>
 		 <script src="java/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="java/app.js" type="text/javascript" charset="utf-8"></script>
@@ -142,10 +139,13 @@
 			fade: true,
 			dots: true,
 			autoplay: true,
-			speed: 2000,
-			autoplaySpeed: 6000
+			speed: 4000,
+			autoplaySpeed: 3000,
+			pauseOnHover: false
 
 		});
+
+
 		</script>
 
 	  </body>

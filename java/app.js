@@ -46,7 +46,4 @@ $(".animsition").animsition({
 
 $("header").sticky();
 
-$("#stickyCta").sticky({
-  topSpacing: 75
-});
 

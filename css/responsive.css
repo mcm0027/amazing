@@ -191,6 +191,24 @@ tagline
   #formpage form {
   width: 45%;
 }
+
+ /***************
+ material page
+ ***************/
+
+ .grid-half {
+  width: 50%;
+}
+
+.matSlide img {
+  width: 70%;
+  margin: 10% 20% 10% 10%;
+}
+
+.matSlide2 img { 
+  margin: 10% 10% 10% 20%;
+}
+
  
 }
 
@@ -208,6 +226,9 @@ tagline
   
 }
  
+
+
+
 /***************
 contact page
 ********/
