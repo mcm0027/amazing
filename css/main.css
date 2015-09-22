@@ -130,7 +130,7 @@ nav {
 
 nav ul {
   list-style: none;
-  margin: 0;
+  margin
   padding: 2px;
 }
 
@@ -697,6 +697,10 @@ Slides!!
   background-image: url("../img/concrete_wall.png")
 }
 
+.purtyWood {
+  background-image: url('../img/purty_wood/purty_wood_@2X.png');
+}
+
 .backgroundimgMat {
   top: 200px;
   min-height: 800px;
@@ -843,7 +847,7 @@ Slides!!
 
 .slide img {
   width: 64%;
-  margin: 5% 23% 5% 13%;
+  margin: 10% 23% 10% 13%;
   border: 4px solid #222;
   border-radius: 10px;
 
